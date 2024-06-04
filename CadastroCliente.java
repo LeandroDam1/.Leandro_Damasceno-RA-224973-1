@@ -160,15 +160,15 @@ public class CadastroCliente {
                     cadastro.gravarCadastro(codigo, nome, dataNascimento, telefone);
                     break;
                 case "2":
-                    codigo = JOptionPane.showInputDialog("● Informe o código do cadastro a ser excluído:");
+                    codigo = JOptionPane.showInputDialog("● Informe o código do cadastro que será excluído:");
                     cadastro.excluirCadastro(codigo);
                     break;
                 case "3":
-                    codigo = JOptionPane.showInputDialog("● Informe o código do cadastro a ser alterado:");
+                    codigo = JOptionPane.showInputDialog("● Informe o código do cadastro que será alterado:");
                     cadastro.alterarCadastro(codigo);
                     break;
                 case "4":
-                    codigo = JOptionPane.showInputDialog("● Informe o código do cadastro a ser recuperado:");
+                    codigo = JOptionPane.showInputDialog("● Informe o código do cadastro que será localizado/recuperado:");
                     cadastro.recuperarCadastro(codigo);
                     break;
                 case "5":
